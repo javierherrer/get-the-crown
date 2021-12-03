@@ -4,6 +4,7 @@
     {"id":{"name":"spr_main_char","path":"sprites/spr_main_char/spr_main_char.yy",},"order":0,},
     {"id":{"name":"spr_main_char_back","path":"sprites/spr_main_char_back/spr_main_char_back.yy",},"order":3,},
     {"id":{"name":"spr_main_char_right","path":"sprites/spr_main_char_right/spr_main_char_right.yy",},"order":2,},
+    {"id":{"name":"spr_main_walking","path":"sprites/spr_main_walking/spr_main_walking.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
