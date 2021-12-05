@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_main_char_right","path":"sprites/spr_main_char_right/spr_main_char_right.yy",},"order":4,},
     {"id":{"name":"spr_main_char_left","path":"sprites/spr_main_char_left/spr_main_char_left.yy",},"order":3,},
+    {"id":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},"order":1,},
     {"id":{"name":"obj_main","path":"objects/obj_main/obj_main.yy",},"order":0,},
     {"id":{"name":"spr_main_walking_back","path":"sprites/spr_main_walking_back/spr_main_walking_back.yy",},"order":7,},
     {"id":{"name":"spr_main_walking_right","path":"sprites/spr_main_walking_right/spr_main_walking_right.yy",},"order":8,},
@@ -10,6 +11,7 @@
     {"id":{"name":"spr_main_char_back","path":"sprites/spr_main_char_back/spr_main_char_back.yy",},"order":5,},
     {"id":{"name":"spr_scene","path":"sprites/spr_scene/spr_scene.yy",},"order":0,},
     {"id":{"name":"spr_main_char","path":"sprites/spr_main_char/spr_main_char.yy",},"order":2,},
+    {"id":{"name":"check_collisions","path":"scripts/check_collisions/check_collisions.yy",},"order":0,},
     {"id":{"name":"spr_walls","path":"sprites/spr_walls/spr_walls.yy",},"order":1,},
     {"id":{"name":"spr_main_walking_left","path":"sprites/spr_main_walking_left/spr_main_walking_left.yy",},"order":9,},
     {"id":{"name":"rm_scene","path":"rooms/rm_scene/rm_scene.yy",},"order":0,},
