@@ -11,6 +11,7 @@
     {"id":{"name":"spr_main_walking_back","path":"sprites/spr_main_walking_back/spr_main_walking_back.yy",},"order":7,},
     {"id":{"name":"obj_bucket","path":"objects/obj_bucket/obj_bucket.yy",},"order":5,},
     {"id":{"name":"obj_dialog","path":"objects/obj_dialog/obj_dialog.yy",},"order":9,},
+    {"id":{"name":"rm_boss","path":"rooms/rm_boss/rm_boss.yy",},"order":1,},
     {"id":{"name":"spr_empty_bucket","path":"sprites/spr_empty_bucket/spr_empty_bucket.yy",},"order":15,},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},"order":18,},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},"order":14,},
@@ -51,6 +52,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_scene","path":"rooms/rm_scene/rm_scene.yy",},},
+    {"roomId":{"name":"rm_boss","path":"rooms/rm_boss/rm_boss.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

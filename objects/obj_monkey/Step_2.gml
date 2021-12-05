@@ -5,7 +5,7 @@ if(distance_to_object(obj_main) < 16 && keyboard_check(vk_space)){
 	
 	if (!instance_exists(obj_banana)) {
 		// DIALOGO DE QUE YA LE HEMOS DADO EL PLATANO
-		// DARLE LA LLAVE
+		instance_create_layer(0,0, layer_get_id("instances"), obj_key2)
 	}
 	
 	// DIALOGO DE MONO CON HAMBRE QUE QUIERE PLATANO

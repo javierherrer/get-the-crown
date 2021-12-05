@@ -7,7 +7,7 @@ if(distance_to_object(obj_main) < 16 && keyboard_check(vk_space)){
 	}
 	
 	if (obj_tree.sprite_index == spr_tree) {
-		// ME DA UNA LLAVE	
+		instance_create_layer(0,0, layer_get_id("instances"), obj_key)	
 	}
 	
 	// DIALOGO DE QUE SE QUIERE SUBIR A UN ARBOL Y NO ESTA
