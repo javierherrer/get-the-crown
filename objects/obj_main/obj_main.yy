@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_main_char",
+    "path": "sprites/spr_main_char/spr_main_char.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
