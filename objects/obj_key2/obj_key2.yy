@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_empty_bucket",
-    "path": "sprites/spr_empty_bucket/spr_empty_bucket.yy",
+    "name": "spr_key2",
+    "path": "sprites/spr_key2/spr_key2.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bucket",
+  "name": "obj_key2",
   "tags": [],
   "resourceType": "GMObject",
 }

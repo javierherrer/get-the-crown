@@ -5,6 +5,6 @@ sprite_index = spr_main_walking
 
 if (! check_collisions(x, y, room_width, room_height, boundry.bottom)) {
 	
-	y += 1
+	y += mspeed
 
 }
