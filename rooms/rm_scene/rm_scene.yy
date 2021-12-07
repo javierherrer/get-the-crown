@@ -101,6 +101,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":736.0,"resourceVersion":"1.0","name":"inst_506DD065","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":768.0,"resourceVersion":"1.0","name":"inst_3C6C8F96","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":800.0,"resourceVersion":"1.0","name":"inst_55337C01","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_dialog","path":"objects/obj_dialog/obj_dialog.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.950495,"scaleY":0.6831683,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":160.0,"resourceVersion":"1.0","name":"inst_131E54E3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"ts_scene","path":"tilesets/ts_scene/ts_scene.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":32,"SerialiseHeight":32,"TileSerialiseData":[
 31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,
@@ -227,6 +228,7 @@
     {"name":"inst_506DD065","path":"rooms/rm_scene/rm_scene.yy",},
     {"name":"inst_3C6C8F96","path":"rooms/rm_scene/rm_scene.yy",},
     {"name":"inst_55337C01","path":"rooms/rm_scene/rm_scene.yy",},
+    {"name":"inst_131E54E3","path":"rooms/rm_scene/rm_scene.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
