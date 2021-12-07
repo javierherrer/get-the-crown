@@ -5,7 +5,6 @@ function dialog_create(box_width, box_height, x_padding, y_padding,
 	// Assumptions:
 	// No word is longer than the text box is wide.
 	// No newlines.
-	
 	text = text + " ";
 	var text_length = string_length(text);
 	
