@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_eating.wav",
-  "duration": 12.5,
+  "soundFile": "snd_eating.mp3",
+  "duration": 2.011429,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
