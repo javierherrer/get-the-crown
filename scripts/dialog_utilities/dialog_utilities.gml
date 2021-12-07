@@ -125,11 +125,10 @@ function dialog_draw(dialog, t) {
 		}
 		break;
 	}
-	
 	return end_code;
 }
 
 function createDialog(sentence) {
 	global.dialog_text = sentence
-	dialog = instance_create_layer(0, 128, "Instances", obj_dialog)	
+	instance_create_layer(0, 128, "Instances", obj_dialog)	
 }
