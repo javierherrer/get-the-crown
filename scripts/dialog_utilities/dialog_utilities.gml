@@ -130,5 +130,7 @@ function dialog_draw(dialog, t) {
 
 function createDialog(sentence) {
 	global.dialog_text = sentence
-	instance_create_layer(0, 128, "Instances", obj_dialog)	
+	instance_create_layer(camera_get_view_x(view_camera[0]), 
+							camera_get_view_y(view_camera[0]) + 128, 
+							"Instances", obj_dialog)	
 }
