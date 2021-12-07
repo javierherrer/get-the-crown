@@ -1,5 +1,5 @@
 {
-  "compression": 0,
+  "compression": 1,
   "volume": 1.0,
   "preload": false,
   "bitRate": 128,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_sloth.mp3",
-  "duration": 3.500375,
+  "duration": 3.317551,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
