@@ -9,5 +9,6 @@ if(distance_to_object(obj_main) < 16 && keyboard_check(vk_space)){
 			y -= 50
 			x -= 20
 			instance_destroy(obj_bucket)
+			audio_play_sound(snd_item, 1, false);
 	}
 }

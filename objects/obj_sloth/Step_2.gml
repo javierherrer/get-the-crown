@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 if(distance_to_object(obj_main) < 16 && keyboard_check(vk_space)){
+	audio_play_sound(snd_sloth, 1, false);
 	if (obj_tree.sprite_index == spr_tree) {
 		createDialog("Thanks for growing the tree, now I can rest in there")
 		if (!instance_exists(obj_key)) {
