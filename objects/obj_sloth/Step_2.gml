@@ -13,7 +13,7 @@ if(distance_to_object(obj_main) < 16 && keyboard_check(vk_space)){
 		createDialog("I wiss I could rest in a tree, but there is any tree near")
 		if (! instance_exists(obj_bucket)) {
 			createDialog("Here is a bucket, if you need it for anything")
-			instance_create_layer(obj_main.x + 4,obj_main.y, layer_get_id("instances"), obj_bucket)
+			instance_create_layer(obj_main.x + 40,obj_main.y - 120, layer_get_id("instances"), obj_bucket)
 		}
 	}
 }
