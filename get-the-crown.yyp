@@ -8,6 +8,7 @@
     {"id":{"name":"spr_boss_happy","path":"sprites/spr_boss_happy/spr_boss_happy.yy",},"order":21,},
     {"id":{"name":"spr_main_char_left","path":"sprites/spr_main_char_left/spr_main_char_left.yy",},"order":3,},
     {"id":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},"order":1,},
+    {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":2,},
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},"order":8,},
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":22,},
     {"id":{"name":"obj_main","path":"objects/obj_main/obj_main.yy",},"order":0,},
@@ -70,6 +71,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_scene","path":"rooms/rm_scene/rm_scene.yy",},},
     {"roomId":{"name":"rm_boss","path":"rooms/rm_boss/rm_boss.yy",},},
+    {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
