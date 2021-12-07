@@ -4,13 +4,13 @@
 if(distance_to_object(obj_main) < 16 && keyboard_check(vk_space)){
 	
 	if (!instance_exists(obj_banana)) {
-		// DIALOGO DE QUE YA LE HEMOS DADO EL PLATANO
+		createDialog("Thanks for the banana, I was really hungry")
 		if (!instance_exists(obj_key2)) {
-			// DIALOGO DE DAR LLAVE
-			instance_create_layer(0,0, layer_get_id("instances"), obj_key2)
+			createDialog("Here is a key, you can use it for entering the castle, but you need another one")
+			instance_create_layer(obj_main.x + 150,obj_main.y - 150, layer_get_id("instances"), obj_key2)
 		}
 	} else {
-		// DIALOGO DE MONO CON HAMBRE QUE QUIERE PLATANO	
+		createDialog("I am really hungry, need some food")	
 	}
 
 }
