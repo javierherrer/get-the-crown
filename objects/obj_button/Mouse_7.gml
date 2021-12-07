@@ -3,8 +3,7 @@
 if (text == "Play") {
 	room_goto(rm_scene)	
 } else if (text == "Instructions") {
-	//TODO change with rm_instructions
-	room_goto(rm_scene)	
+	room_goto(rm_instructions)	
 } else {
 	game_end()	
 }
