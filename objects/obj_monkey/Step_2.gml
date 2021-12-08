@@ -3,7 +3,7 @@
 
 if(distance_to_object(obj_main) < 16 && keyboard_check(vk_space)){
 	audio_play_sound(snd_monkey, 2, false);
-	if (instance_exists(obj_banana) && obj_banana.found) {
+	if ((instance_exists(obj_banana) && obj_banana.found) || !instance_exists(obj_banana)) {
 		audio_play_sound(snd_eating, 1, false);
 		sentence = "Thanks for the banana, I was really hungry. "
 		if (!instance_exists(obj_key2)) {
