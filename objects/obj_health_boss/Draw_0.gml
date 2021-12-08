@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-sprite_index = spr_main_char
-
-mspeed=4
+draw_text(10, 5, "Boss's life: " + string(obj_boss.health))

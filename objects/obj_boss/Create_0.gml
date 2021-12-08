@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-health = 200
 
 fsm = m_create("defense")
 

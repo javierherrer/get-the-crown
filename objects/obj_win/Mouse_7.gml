@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 with (inst_boss) {
 	if (m_is_state(fsm, "defense")) {
 		createDialog("The oponent defended himself, so your attack did not do anything")
