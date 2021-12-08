@@ -1,0 +1,1 @@
+obj_main.sprite_index = spr_main_char_back

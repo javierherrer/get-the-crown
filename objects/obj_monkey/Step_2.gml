@@ -9,6 +9,7 @@ if(distance_to_object(obj_main) < 16 && keyboard_check(vk_space)){
 		if (!instance_exists(obj_key2)) {
 			sentence = sentence + "Here is a key, you can use it for entering the castle, but you need another one"
 			instance_create_layer(obj_main.x + 80,obj_main.y - 120, layer_get_id("instances"), obj_key2)
+			instance_destroy(obj_banana)
 		}
 		createDialog(sentence)
 	} else {

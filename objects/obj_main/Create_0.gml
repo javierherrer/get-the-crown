@@ -4,3 +4,5 @@
 sprite_index = spr_main_char
 
 mspeed=4
+
+health = 200

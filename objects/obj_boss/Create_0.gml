@@ -1,21 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-fsm = m_create("normal")
+health = 200
 
-m_rule(fsm, "win", "normal", "happy");
-m_rule(fsm, "win", "angry", "normal");
-m_rule(fsm, "lose", "normal", "angry");
-m_rule(fsm, "lose", "happy", "normal");
+fsm = m_create("defense")
 
-m_action(fsm, ">normal", function() {
+m_rule(fsm, "defend", "defense", "physical");
+m_rule(fsm, "defend", "magic", "defense");
+m_rule(fsm, "attack", "defense", "magic");
+m_rule(fsm, "attack", "physical", "defense");
+
+m_action(fsm, ">defense", function() {
 	sprite_index = spr_boss;
-});
-
-m_action(fsm, ">angry", function() {
-	sprite_index = spr_boss_angry;
-});
-
-m_action(fsm, ">happy", function() {
-	sprite_index = spr_boss_happy;
 });
