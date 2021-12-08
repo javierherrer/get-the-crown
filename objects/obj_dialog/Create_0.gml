@@ -12,5 +12,3 @@ dialog = dialog_create(sprite_width-40,
 
 original_x = x - camera_get_view_x(view_camera[0]);
 original_y = y - camera_get_view_y(view_camera[0]);
-
-alarm[0]  = 5 * room_speed

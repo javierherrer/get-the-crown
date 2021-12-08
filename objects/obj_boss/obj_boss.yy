@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_boss",
-    "path": "sprites/spr_boss/spr_boss.yy",
+    "name": "spr_boss_defense",
+    "path": "sprites/spr_boss_defense/spr_boss_defense.yy",
   },
   "solid": false,
   "visible": true,
