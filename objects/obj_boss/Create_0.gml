@@ -10,5 +10,13 @@ m_rule(fsm, "attack", "defense", "magic");
 m_rule(fsm, "attack", "physical", "defense");
 
 m_action(fsm, ">defense", function() {
-	sprite_index = spr_boss;
+	sprite_index = spr_boss_defense;
+});
+
+m_action(fsm, ">physical", function() {
+	sprite_index = spr_boss_physical;
+});
+
+m_action(fsm, ">magic", function() {
+	sprite_index = spr_boss_magical;
 });

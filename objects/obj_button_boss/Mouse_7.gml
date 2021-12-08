@@ -6,12 +6,15 @@ if (!instance_exists(obj_dialog)) {
 	if (text == "attack") {
 		with (inst_boss) {
 			if (m_is_state(fsm, "defense")) {
+				audio_play_sound(snd_shield, 1, false);
 				createDialog("The oponent defended himself, so your attack did not do anything")
 			} else if (m_is_state(fsm, "magic")) {
+				audio_play_sound(snd_sword, 1, false);
 				createDialog("The oponent made a magical attack")
 				obj_boss.health -= 50
 				obj_main.health -= 100
 			} else if (m_is_state(fsm, "physical")) {
+				audio_play_sound(snd_sword, 1, false);
 				createDialog("The oponent made a physical attack")
 				obj_boss.health -= 50
 				obj_main.health -= 25
@@ -28,6 +31,7 @@ if (!instance_exists(obj_dialog)) {
 		}
 	} else if (text == "defend") {
 		with (inst_boss) {
+			audio_play_sound(snd_shield, 1, false);
 			if (m_is_state(fsm, "defense")) {
 				createDialog("The oponent defended himself too")
 			} else if (m_is_state(fsm, "magic")) {
