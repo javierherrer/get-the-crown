@@ -12,21 +12,21 @@ if (!instance_exists(obj_dialog)) {
 				audio_play_sound(snd_sword, 1, false);
 				createDialog("The oponent made a magical attack")
 				obj_boss.health -= 50
-				obj_main.health -= 100
+				obj_main_boss.health -= 100
 			} else if (m_is_state(fsm, "physical")) {
 				audio_play_sound(snd_sword, 1, false);
 				createDialog("The oponent made a physical attack")
 				obj_boss.health -= 50
-				obj_main.health -= 25
+				obj_main_boss.health -= 25
 			}
 			m_send(fsm, "attack");
 		}
 
-		if (obj_boss.health < 1 && obj_main.health < 1) {
+		if (obj_boss.health < 1 && obj_main_boss.health < 1) {
 			room_goto(rm_end)
 		} else if (obj_boss.health < 1) {
 			room_goto(rm_win)
-		} else if (obj_main.health < 1) {
+		} else if (obj_main_boss.health < 1) {
 			room_goto(rm_lose)	
 		}
 	} else if (text == "defend") {

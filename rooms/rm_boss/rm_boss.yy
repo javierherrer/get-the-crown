@@ -16,10 +16,10 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":64.0,"resourceVersion":"1.0","name":"inst_boss","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_health_main","path":"objects/obj_health_main/obj_health_main.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_1D033F28","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_main","path":"objects/obj_main/obj_main.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.28,"scaleY":1.8,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":192.0,"resourceVersion":"1.0","name":"inst_7F800BBE","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_health_boss","path":"objects/obj_health_boss/obj_health_boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_76ACC701","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_button_boss","path":"objects/obj_button_boss/obj_button_boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":192.0,"resourceVersion":"1.0","name":"inst_btn_defend","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_button_boss","path":"objects/obj_button_boss/obj_button_boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":192.0,"resourceVersion":"1.0","name":"inst_btn_attack","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_main_boss","path":"objects/obj_main_boss/obj_main_boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.28,"scaleY":1.8,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":192.0,"resourceVersion":"1.0","name":"inst_659B2397","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"ts_scene","path":"tilesets/ts_scene/ts_scene.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":8,"SerialiseHeight":8,"TileSerialiseData":[
 47,47,47,47,47,47,47,47,
@@ -38,11 +38,11 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_boss","path":"rooms/rm_boss/rm_boss.yy",},
-    {"name":"inst_7F800BBE","path":"rooms/rm_boss/rm_boss.yy",},
     {"name":"inst_1D033F28","path":"rooms/rm_boss/rm_boss.yy",},
     {"name":"inst_76ACC701","path":"rooms/rm_boss/rm_boss.yy",},
     {"name":"inst_btn_defend","path":"rooms/rm_boss/rm_boss.yy",},
     {"name":"inst_btn_attack","path":"rooms/rm_boss/rm_boss.yy",},
+    {"name":"inst_659B2397","path":"rooms/rm_boss/rm_boss.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

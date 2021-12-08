@@ -7,6 +7,6 @@ if(distance_to_object(obj_main) < 16 && keyboard_check(vk_space)){
 }
 
 if (found) {
-	x = obj_main.x + 60
-	y = obj_main.y - 120
+	x = camera_get_view_x(view_camera[0]) + 170
+	y = camera_get_view_y(view_camera[0]) + 5
 }
