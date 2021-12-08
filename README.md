@@ -12,9 +12,9 @@ You'll have to interact with the game characters and meet their needs. They will
 None.
 
 ## Credits
-* David: TODO
+* David: Main character, boss and objects sprites, state machine of boss, boss and finals rooms.
 * Javier: Tilesets, dialogs, water collisions, sounds, title&instructions room, scripts.
-* Collaborative:TODO
+* Collaborative: Event handling
 
 ## Sounds
 We've used GarageBand, home made recordings and [Sound bank from the Spanish Ministry of Education](http://recursostic.educacion.es/bancoimagenes/web/)
