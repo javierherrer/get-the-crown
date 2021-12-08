@@ -9,5 +9,5 @@ if (focus) {
 	draw_set_color(0xaaaaaa);
 }
 
-
-draw_text(x+x_padding, y+y_padding, text); 
+if (!instance_exists(obj_dialog))
+	draw_text(x+x_padding, y+y_padding, text);
